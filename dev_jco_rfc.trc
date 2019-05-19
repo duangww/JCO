@@ -1,0 +1,98 @@
+
+**** Error file opened at 20190519 110117 China Standard Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Error:  >Sun May 19 11:01:17,896<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS ASHOST=www.sapdykt.com SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner 'www.sapdykt.com:3301' not reached
+TIME        Sun May 19 11:01:17 2019
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 101.251.70.73:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20190519 123203 China Standard Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Error:  >Sun May 19 12:32:03,125<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS ASHOST=192.168.111.123 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.111.123:3300' not reached
+TIME        Sun May 19 12:32:03 2019
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.111.123:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Sun May 19 12:32:04,585<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=10.6.7.138 SYSNR=10 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.6.7.138:3310' not reached
+TIME        Sun May 19 12:32:04 2019
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.6.7.138:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20190519 123503 China Standard Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Error:  >Sun May 19 12:35:03,540<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=10.6.7.138 SYSNR=10 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.6.7.138:3310' not reached
+TIME        Sun May 19 12:35:03 2019
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 10.6.7.138:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
