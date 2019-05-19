@@ -88,7 +88,7 @@ public class demo01 {
 		JCoFunction function = dest.getRepository().getFunction("ZJW_RFC01");// 从对象仓库中获取 RFM 函数
 
 		if (function == null)
-			throw new RuntimeException("RFC_SYSTEM_INFO not found in SAP.");
+			throw new RuntimeException("RFC not found in SAP.");
 		try {
 			// 输入参数
 			function.getImportParameterList().setValue("I_ROWS", 10);
